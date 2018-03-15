@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#muljedsaavutustest
+
+echo  "Taago Ploom"
+echo  "ISP117"
+echo  "Täitsa viisakas aine"
+echo  "Tundub kohati väljakutsuv, kuid töö annab täitsa tulemusi"
+
+#skripti lõpp
