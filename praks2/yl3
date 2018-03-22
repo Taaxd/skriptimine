@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#kasutajate nimekiri
+
+#skripti algus
+
+who | cut -f1 -d" " | cut -f2 -d"." > eesnimi
+awk | cut -f1 -d" " | cut -f1 -d"." > perenimi
+paste -d"." eesnimi perenimi > nimed
+cat nimed | sort | uniq
+
+#skripti lõpp
