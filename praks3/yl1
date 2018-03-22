@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#kuupäev ja ajaga seotud info
+
+date '+%A %W %Y %X'
+cal
+
+#skripti lõpp
