@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# mitu päeva on antud masin hetkel töötanud
+
+
+echo -n `hostname`
+echo -n " at "
+echo `uptime | cut -f1 -d","`
+
+# skripti lõpp
